@@ -160,10 +160,10 @@ MonoBehaviour:
     value: 1
   shutterAngle:
     overrideState: 1
-    value: 306
+    value: 261
   sampleCount:
     overrideState: 1
-    value: 10
+    value: 6
 --- !u!114 &114893265173023038
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -191,7 +191,7 @@ MonoBehaviour:
     value: 9
   keyValue:
     overrideState: 1
-    value: 1.18
+    value: 0.73
   eyeAdaptation:
     overrideState: 1
     value: 0
