@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6837284056314656210}
   - component: {fileID: 6837284056314656213}
   - component: {fileID: 6837284056314656212}
+  - component: {fileID: 1216191941691235427}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -27,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6837284056314656214}
-  m_LocalRotation: {x: -0.661517, y: 0.28326434, z: -0.29898128, w: 0.62671113}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.03, y: 1.31, z: -0.06}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -41.283, y: 92.72201, z: -94.12}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6837284056314656211
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -106,5 +107,17 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!75 &1216191941691235427
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837284056314656214}
+  m_Enabled: 1
+  m_Force: {x: -1029.466, y: -21.46569, z: 825.9172}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}

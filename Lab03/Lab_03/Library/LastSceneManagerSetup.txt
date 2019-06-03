@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Lab03.unity
+- path: Assets/Scenes/Lab3_poprawione.unity
   isLoaded: 1
   isActive: 1
